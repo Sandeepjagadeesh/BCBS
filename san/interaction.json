@@ -1,0 +1,70 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bluecross blueshield health coverage",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getCoPay",
+                    "slots": [],
+                    "samples": [
+                        "Will you be able to tell what would be my co pay",
+                        "Will you be able to tell what is my co pay",
+                        "What is the co pay am I looking at",
+                        "What would be my co pay",
+                        "What is my co pay",
+                        "Please reveal my co pay",
+                        "Please tell my co pay"
+                    ]
+                },
+                {
+                    "name": "findMyDoctor",
+                    "slots": [],
+                    "samples": [
+                        "I need a doctor ",
+                        "find me a doctor nearby",
+                        "find me a doctor",
+                        "find my doctor"
+                    ]
+                },
+                {
+                    "name": "feverHelpLine",
+                    "slots": [
+                        {
+                            "name": "temperature",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "I have a fever of {temperature}",
+                        "I have a fever",
+                        "my baby has a fever of {temperature}",
+                        "My baby has a fever"
+                    ]
+                },
+                {
+                    "name": "autoSignForPay",
+                    "slots": [],
+                    "samples": [
+                        "Sign me up for an auto pay",
+                        "I would like to sign up for an auto pay",
+                        "I want to sign up for an auto pay",
+                        "I would like to sign up for auto pay"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
