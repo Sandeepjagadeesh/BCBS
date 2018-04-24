@@ -19,13 +19,8 @@
                     "name": "getCoPay",
                     "slots": [],
                     "samples": [
-                        "Will you be able to tell what would be my co pay",
-                        "Will you be able to tell what is my co pay",
-                        "What is the co pay am I looking at",
-                        "What would be my co pay",
-                        "What is my co pay",
-                        "Please reveal my co pay",
-                        "Please tell my co pay"
+                        "co payment",
+                        "co pay"
                     ]
                 },
                 {
@@ -57,10 +52,21 @@
                     "name": "autoSignForPay",
                     "slots": [],
                     "samples": [
-                        "Sign me up for an auto pay",
-                        "I would like to sign up for an auto pay",
-                        "I want to sign up for an auto pay",
-                        "I would like to sign up for auto pay"
+                        "sign me up for auto pay",
+                        "auto-pay",
+                        "auto pay"
+                    ]
+                },
+                {
+                    "name": "Unhandled",
+                    "slots": [
+                        {
+                            "name": "Unhandleds",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{Unhandleds} {Unhandleds} {Unhandleds} {Unhandleds} {Unhandleds} {Unhandleds} {Unhandleds}"
                     ]
                 }
             ],
